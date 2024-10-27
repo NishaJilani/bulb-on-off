@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #011627;
+    color: #fdfffd;
+    text-align: center;
+    background-image: url(./images/flowers-276014_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+input{
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 8px;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+.btn:hover{
+    background-color: rgb(239, 140, 173);
+    cursor: pointer;
+}
+
+
+/* responsive */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #011627;
+    color: #fdfffd;
+    text-align: center;
+    background-image: url(./images/flowers-276014_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+input {
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 8px;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: rgb(239, 140, 173);
+    cursor: pointer;
+}
+
+/* Make the calculator responsive for smaller screens */
+@media (max-width: 768px) {
+    input {
+        width: 60px;
+        height: 35px;
+        font-size: 24px;
+    }
+
+    input[name="display"] {
+        width: 250px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    input {
+        width: 50px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    input[name="display"] {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    input {
+        width: 40px;
+        height: 25px;
+        font-size: 18px;
+    }
+
+    input[name="display"] {
+        width: 150px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
